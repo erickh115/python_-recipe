@@ -10,3 +10,9 @@ gunicorn>=20.1.0
 python-decouple>=3.5
 dj-database-url>=0.5.0
 whitenoise>=5.3.0
+
+
+
+docker compose 
+
+docker-compose run --rm app sh -c "flake8"
